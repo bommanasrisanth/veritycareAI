@@ -1,0 +1,6 @@
+{
+  "name": "VerityCare AI",
+  "description": "Evidence-First Healthcare Information, Dual-AI Verification, and Doctor Discovery Platform with local privacy and transparent source citations.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

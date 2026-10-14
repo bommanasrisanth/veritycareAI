@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f766e" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="checkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14b8a6" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+  </defs>
+  <!-- Background Shield Shape -->
+  <path d="M256 36L440 92V232C440 348 358 440 256 476C154 440 72 348 72 232V92L256 36Z" fill="url(#shieldGrad)" stroke="#14b8a6" stroke-width="12" stroke-linejoin="round" />
+  
+  <!-- Subtle Internal Glow/Outline -->
+  <path d="M256 64L412 112V232C412 332 342 412 256 444C170 412 100 332 100 232V112L256 64Z" fill="none" stroke="#2dd4bf" stroke-width="3" opacity="0.4" />
+  
+  <!-- Medical Cross Base -->
+  <rect x="232" y="150" width="48" height="170" rx="8" fill="#ffffff" />
+  <rect x="171" y="211" width="170" height="48" rx="8" fill="#ffffff" />
+  
+  <!-- Verification Check Overlay -->
+  <circle cx="340" cy="330" r="54" fill="#0f172a" stroke="#14b8a6" stroke-width="6" />
+  <path d="M318 330L332 344L364 312" stroke="url(#checkGrad)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
